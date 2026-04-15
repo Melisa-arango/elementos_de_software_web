@@ -1,0 +1,32 @@
+/**
+ * CUESTIONARIO DE TECNOLOGÍA Y DESARROLLO WEB
+ */
+
+const cuestionarioWeb = {
+  // 1. Conceptos de uso de Internet
+  internetConcepts: {
+    servidorDNS: "Es el 'directorio telefónico' de la web. Traduce nombres de dominio (como google.com) en direcciones IP numéricas para que los navegadores puedan cargar los recursos.",
+    IP: "Siglas de Internet Protocol. Es una dirección numérica única que identifica a un dispositivo en una red o en internet (ej. 192.168.1.1).",
+    protocolo: "Es un conjunto de reglas que permiten que dos o más entidades de un sistema de comunicación se comuniquen entre sí (ej. HTTP para transferencia de hipertexto).",
+    nombreDeDominio: "Es el nombre amigable que usamos para acceder a un sitio web sin recordar la IP (ej. youtube.com).",
+    directorioYNombreDeArchivo: "El directorio es la carpeta dentro del servidor donde se guarda la información, y el nombre de archivo es el documento específico (ej. /imagenes/foto.jpg)."
+  },
+
+  // 2. Roles en el desarrollo de un producto web
+  rolesDesarrollo: {
+    disenadorUI_UX: "El UI (User Interface) crea el aspecto visual (colores, botones), mientras que el UX (User Experience) se asegura de que la navegación sea lógica y satisfactoria para el usuario.",
+    cloudManager: "Se encarga de gestionar la infraestructura en la nube (AWS, Azure, Google Cloud), asegurando que la aplicación sea escalable, segura y esté siempre disponible.",
+    administradorBaseDe Datos: "Diseña, implementa y mantiene las bases de datos. Su prioridad es la integridad, seguridad y rapidez de acceso a la información almacenada.",
+    projectManager: "Coordina al equipo, gestiona los tiempos de entrega, el presupuesto y sirve de puente entre el cliente y los desarrolladores para asegurar que el proyecto se cumpla."
+  },
+
+  // 3. ¿Qué significa que un lenguaje sea Turing Completo?
+  turingCompleto: "Significa que el lenguaje tiene el poder computacional para resolver cualquier problema algorítmico que una Máquina de Turing pueda procesar, siempre que tenga suficiente memoria y tiempo.",
+
+  // 4. ¿Por qué CSS y HTML no son lenguajes de programación?
+  porQueNoSonProgramacion: "Porque carecen de lógica de control de flujo (bucles, condicionales complejos) y capacidad de procesamiento de datos. HTML es un lenguaje de 'marcado' para estructurar contenido y CSS es un lenguaje de 'estilos' para el diseño visual.",
+
+  // 5. Definición de etiqueta HTML
+  etiquetaHTML: "Es un código especial que encierra un contenido para decirle al navegador qué función cumple ese elemento (por ejemplo, si es un título, un párrafo o una imagen). Se escriben entre corchetes angulares, como <p> para párrafos."
+};
+
