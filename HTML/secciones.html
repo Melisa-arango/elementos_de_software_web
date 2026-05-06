@@ -1,86 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
+<head>
+  <meta charset="UTF-8">
+  <title>Taller HTML</title>
 
-        <title>Secciones</title>
-        <link rel="stylesheet" href="secciones.css">
-      
-    </head>
-    <body>
-        <header id="arriba"
-            <h1>mi sitio web trabajado con secciones</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">arriba</a></li>
-                    <li><a href="bandeja paisa.html">Bandeja Paisa</a></li>
-                    <li><a href="secciones.html">Secciones</a></li>
-                </ul>
-
-            </nav>
-        </header> 
-        
-        <main>
-            <hr><div id="inicio">
-                <section class="contenido"   >
-                <h2>Servicios</h2>
-                   <p>Bienvenidos a mi sitio web, aquí encontrarán información sobre mis gustos, mis platos favoritos y mucho más. Espero que disfruten de la experiencia.</p>
-                <article>
-                    <h3>Mis gustos</h3>
-                    <p>Me gusta la música, el cine, la literatura, el arte, la fotografía, la naturaleza, los animales, el mar y la montaña.</p>
-                </article>
-                <article>
-                    <h3>Mis platos favoritos</h3>
-                    <p>Me encanta la comida colombiana, especialmente la bandeja paisa, el ajiaco y el sancocho.</p>
-                    </article>
-                 </section>
-                 <aside>
-                    <h4>Noticias   </h4>
-                    <p>Próximamente publicaré un artículo sobre mis viajes y experiencias culinarias. ¡No te lo pierdas!
-                    <li>Viaje a la costa caribeña</li>
-                    <li>Experiencia gastronómica en
-                         Medellín</li>
-
-                    </p>
-                    <h2>Redes sociales</h2>
-                    <p>Puedes seguirme en mis redes sociales para estar al tanto de mis publicaciones y novedades.</p>
-                    <ul>
-                        <li><a href="https://www.facebook.com/">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/">Instagram</a></li>
-                        <li><a href="https://www.twitter.com/">Twitter</a></li>
-                    </ul>
-                 </aside>
-             </div>
-             <hr><div id="SERVICIO">
-                <section>
-                    <h2>SERVICIO</h2>
-                    <p>Si deseas ponerte en contacto conmigo, puedes hacerlo a través del siguiente formulario:</p>
-                    <form action="enviar_formulario.php" method="post">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required><br><br>
-                        <label for="email">Correo electrónico:</label>
-                        <input type="email" id="email" name="email" required><br><br>
-                        <label for="mensaje">Mensaje:</label><br>
-                        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
-                        <input type="submit" value="Enviar">
-                    </form>
-                </section>
-
- 
-         </main>
-         <hr> <div id="contacto">
-            <footer>
-                <h2>Contacto</h2>
-                <p>Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto conmigo a través de mi correo electrónico: </p>
-                <ul>
-                    <li> Email: santy@gmail.com</li>
-                    <li> Teléfono: +57 123 456 7890</li>
-                    <li> Dirección: Calle Falsa 123, Ciudad, País</li>      
-                </ul>
-                <p><a href= "arriba">Volver al inicio</a></p>
-            </footer>
-         </div> 
-          
+  <style>
 
     
-    </html>
+    .links {
+      color: red;
+    }
+  </style>
+
+</head>
+<body>
+
+<header>
+  <h1>CEO</h1>
+</header>
+
+<main>
+  <p>Hola Santy.</p>
+  <p>Chao Santy.</p>
+  <p>Hola Mundo.</p>
+
+  <h2>Comida semanal</h2>
+  <table border="1">
+    <tr>
+      <th>Día</th>
+      <th>Comida</th>
+    </tr>
+    <tr><td>Lunes</td><td>Arroz con pollo</td></tr>
+    <tr><td>Martes</td><td>Pasta</td></tr>
+    <tr><td>Miércoles</td><td>Carne asada</td></tr>
+    <tr><td>Jueves</td><td>Sopa</td></tr>
+    <tr><td>Viernes</td><td>Huevo</td></tr>
+    <tr><td>Sábado</td><td>Hamburguesa</td></tr>
+    <tr><td>Domingo</td><td>Pollo frito</td></tr>
+  </table>
+</main>
+
+<aside class="links">
+  <h3>Anuncios y enlaces</h3>
+  <p>Anuncio 1</p>
+  <p>Anuncio 2</p>
+
+  <ul>
+    <li><a href="#">Enlace 1</a></li>
+    <li><a href="#">Enlace 2</a></li>
+    <li><a href="#">Enlace 3</a></li>
+    <li><a href="#">Enlace 4</a></li>
+  </ul>
+</aside>
+
+<footer>
+  <p>© ABRIL 2026</p>
+</footer>
+
+</body>
+</html>
