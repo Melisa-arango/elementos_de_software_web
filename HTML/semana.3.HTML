@@ -1,88 +1,251 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <title>Taller HTML</title>
 
   <style>
-    /* Punto 3: Coloreando enlaces */
-    .links {
-      color: red;
+
+    /* Estilos generales */
+    body {
+      font-size: 18px;
+      font-family: Tahoma;
+      color: rebeccapurple;
+      background: linear-gradient(to right, #d8b4fe, #c084fc);
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
     }
+
+    /* Header */
+    header {
+      background-color: #6b21a8;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+      letter-spacing: 2px;
+    }
+
+    /* Main */
+    main {
+      width: 80%;
+      margin: 30px auto;
+      background-color: rgba(255,255,255,0.8);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Párrafos */
+    p {
+      background-color: #f3e8ff;
+      padding: 10px;
+      border-left: 5px solid purple;
+      border-radius: 8px;
+    }
+
+    /* Títulos */
+    h2, h3 {
+      color: darkmagenta;
+      text-shadow: 1px 1px 2px white;
+    }
+
+    /* Tabla */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: white;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    th {
+      background-color: #7e22ce;
+      color: white;
+      padding: 12px;
+    }
+
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f5d0fe;
+    }
+
+    tr:hover {
+      background-color: #e879f9;
+      color: white;
+      transition: 0.3s;
+    }
+
+    /* Aside */
+    aside {
+      width: 80%;
+      margin: 20px auto;
+      background-color: rgba(255,255,255,0.8);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Links */
+    .links a {
+      color: crimson;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      color: blue;
+      text-decoration: underline;
+      font-size: 20px;
+    }
+
+    /* Lista */
+    ul {
+      list-style-type: square;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #4c1d95;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 16px;
+    }
+
   </style>
 
 </head>
+
 <body>
 
-<!-- Punto 2: Página semántica -->
-<header>
-  <h1>CEO</h1>
-</header>
+  <header>
+    <h1>Taller HTML</h1>
+  </header>
 
-<main>
-  <p>Hola Santy.</p>
-  <p>Tengo Sueño.</p>
-  <p>Hola Mundo.</p>
+  <main>
 
-  <!-- Punto 1: Tabla de la semana -->
-  <h2>Comida semanal</h2>
-  <table border="1">
-    <tr>
-      <th>Día</th>
-      <th>Comida</th>
-    </tr>
-    <tr>
-      <td>Lunes</td>
-      <td>Arroz con pollo</td>
-    </tr>
-    <tr>
-      <td>Martes</td>
-      <td>Pasta</td>
-    </tr>
-    <tr>
-      <td>Miércoles</td>
-      <td>Carne asada</td>
-    </tr>
-    <tr>
-      <td>Jueves</td>
-      <td>Sopa</td>
-    </tr>
-    <tr>
-      <td>Viernes</td>
-      <td>Pescado</td>
-    </tr>
-    <tr>
-      <td>Sábado</td>
-      <td>Hamburguesa</td>
-    </tr>
-    <tr>
-      <td>Domingo</td>
-      <td>Pollo frito</td>
-    </tr>
-  </table>
+    <p>
+      Este es el primer párrafo con el contenido principal de la página,
+      heredando estilos globales.
+    </p>
 
-</main>
+    <p>
+      El segundo párrafo explica la importancia de la estructura semántica
+      en el desarrollo web moderno.
+    </p>
 
-<!-- Anuncios secundarios -->
-<aside class="links">
-  <h3>Anuncios y enlaces</h3>
+    <p>
+      Finalmente, el tercer párrafo cierra la sección de lectura técnica.
+    </p>
 
-  <p>Anuncio 1</p>
-  <p>Anuncio 2</p>
+    <h2>Comida semanal</h2>
 
-  <ul>
-    <li><a href="data:image/jpeg;base64,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">Enlace 1</a></li>
-    <li><a href="#">Enlace 2</a></li>
-    <li><a href="#">Enlace 3</a></li>
-    <li><a href="#">Enlace 4</a></li>
+    <table border="1">
 
-  </ul>
-</aside>
+      <tr>
+        <th>Día</th>
+        <th>Comida</th>
+      </tr>
 
-<!-- Footer -->
-<footer>
-  <p>© ABRIL 2026 Melisa Arango</p>
-</footer>
+      <tr>
+        <td>Lunes</td>
+        <td>Arroz con pollo</td>
+      </tr>
+
+      <tr>
+        <td>Martes</td>
+        <td>Pasta</td>
+      </tr>
+
+      <tr>
+        <td>Miércoles</td>
+        <td>Carne asada</td>
+      </tr>
+
+      <tr>
+        <td>Jueves</td>
+        <td>Sopa</td>
+      </tr>
+
+      <tr>
+        <td>Viernes</td>
+        <td>Pescado</td>
+      </tr>
+
+      <tr>
+        <td>Sábado</td>
+        <td>Hamburguesa</td>
+      </tr>
+
+      <tr>
+        <td>Domingo</td>
+        <td>Pollo frito</td>
+      </tr>
+
+    </table>
+
+  </main>
+
+  <aside class="links">
+
+    <h3>Anuncios Secundarios</h3>
+
+    <p>Publicidad: ¡Aprende CSS hoy mismo!</p>
+
+    <p>No te pierdas nuestros próximos talleres.</p>
+
+    <a href="#">Enlace de prueba 1</a> |
+    <a href="#">Enlace de prueba 2</a>
+
+    <ul>
+      <li><a href="#">Enlace 1</a></li>
+      <li><a href="#">Enlace 2</a></li>
+      <li><a href="#">Enlace 3</a></li>
+      <li><a href="#">Enlace 4</a></li>
+    </ul>
+    <!--1. ¿Por qué los enlaces son verdes y no rojos?
+R= Es porque esta petición (ul.news li.news__item a.news__item-link {color: green;}) en el código sobreescribe el color rojo dejando los enlaces verde, ya que es más específica.
+
+
+
+2. Hacer que los enlaces sean rojos.
+R= Usando a {color: red !important;}
+
+
+
+3. Rehacer el HTML usando <div> en lugar de <ul> y <li>. ¿Qué pasa?
+R= Se rompe el CSS porque usa ul y li, y debido a esto se pierde la semántica.
+
+
+
+4. Comentar el CSS que no se puede tocar y reescribir este CSS usando una clase por selector para que se vea igual.
+R= Se mantiene el mismo diseño visual, pero el CSS deja de depender de las etiquetas (ul, li) y pasa a depender de las clases, haciéndolo más reutilizable y flexible.-->
+
+  </aside>
+
+  <footer>
+    <p>© ABRIL 2026 Melisa Arango</p>
+  </footer>
 
 </body>
+
 </html>

@@ -1,7 +1,121 @@
-body {
-  font-size: 18px;
-  font-family: Tahoma;
-  color: rebeccapurple;
-  background-color: mediumpurple;
-  line-height: 1.5;
-}
+      body {
+      font-size: 18px;
+      font-family: Tahoma;
+      color: rebeccapurple;
+      background: linear-gradient(to right, #d8b4fe, #c084fc);
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header */
+    header {
+      background-color: #6b21a8;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    }
+
+    h1 {margin: 0;
+      font-size: 40px;
+      letter-spacing: 2px;
+    }
+
+    /* Main */
+    main {
+      width: 80%;
+      margin: 30px auto;
+      background-color: rgba(255,255,255,0.8);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Párrafos */
+    p {
+      background-color: #f3e8ff;
+      padding: 10px;
+      border-left: 5px solid purple;
+      border-radius: 8px;
+    }
+
+    /* Títulos */
+    h2, h3 {
+      color: darkmagenta;
+      text-shadow: 1px 1px 2px white;
+    }
+
+    /* Tabla */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: white;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    th {
+      background-color: #7e22ce;
+      color: white;
+      padding: 12px;
+    }
+
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f5d0fe;
+    }
+
+    tr:hover {
+      background-color: #e879f9;
+      color: white;
+      transition: 0.3s;
+    }
+
+    /* Aside */
+    aside {
+      width: 80%;
+      margin: 20px auto;
+      background-color: rgba(255,255,255,0.8);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Links */
+    .links a {
+      color: crimson;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      color: blue;
+      text-decoration: underline;
+      font-size: 20px;
+    }
+
+    /* Lista */
+    ul {
+      list-style-type: square;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #4c1d95;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 16px;
+    }
